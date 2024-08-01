@@ -7,7 +7,11 @@ class HashSet1{
            set.add("Two");    
            set.add("Three");   
            set.add("Four");  
-           set.add("Five");  
+           set.add("Five");
+           set.add("Six");
+           System.out.println(set);
+           set.remove("Five");
+          System.out.println(set);
            Iterator<String> i=set.iterator();  
            while(i.hasNext())  
            {  
